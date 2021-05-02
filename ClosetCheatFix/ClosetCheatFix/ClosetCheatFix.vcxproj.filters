@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Communication">
+      <UniqueIdentifier>{3d2c8419-6675-455a-b727-f10bfcec2411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structs">
+      <UniqueIdentifier>{fe9a2339-ca7e-42ee-a74e-1f739416970b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk">
+      <UniqueIdentifier>{28508f65-6bde-4be6-ac6b-7af55b413cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\offsets">
+      <UniqueIdentifier>{bfcc9aca-d0a1-42e1-976f-4f3aa954d1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MiscFuncs">
+      <UniqueIdentifier>{bf1da5e3-d881-4501-afc5-673eed748141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WeaponFuncs">
+      <UniqueIdentifier>{ce00c9bf-6188-4448-9b01-b8c79af928a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClosetCheatFix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Communication.h">
+      <Filter>Header Files\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Header Files\offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscFuns.h">
+      <Filter>Source Files\MiscFuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponFuncs.h">
+      <Filter>Source Files\WeaponFuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="AimFuncs.h">
+      <Filter>Source Files\MiscFuncs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

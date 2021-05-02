@@ -1,0 +1,12 @@
+﻿  ClosetCheatFix.cpp
+C:\Users\Anonymous\source\repos\ClosetCheatFix\ClosetCheatFix\Math.h(203,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Anonymous\source\repos\ClosetCheatFix\ClosetCheatFix\SDK.h(89,1): warning C4311: 'type cast': pointer truncation from 'UCHAR *' to 'ULONG'
+C:\Users\Anonymous\source\repos\ClosetCheatFix\ClosetCheatFix\SDK.h(89,1): warning C4302: 'type cast': truncation from 'UCHAR *' to 'ULONG'
+C:\Users\Anonymous\source\repos\ClosetCheatFix\ClosetCheatFix\SDK.h(167,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Anonymous\source\repos\ClosetCheatFix\ClosetCheatFix\SDK.h(238,22): warning C4244: 'return': conversion from 'Type' to 'int', possible loss of data
+          with
+          [
+              Type=uint64_t
+          ]
+C:\Users\Anonymous\source\repos\ClosetCheatFix\ClosetCheatFix\ClosetCheatFix.cpp(221,9): warning C4102: 'NextEnt': unreferenced label
+  ClosetCheatFix.vcxproj -> C:\Users\Anonymous\source\repos\ClosetCheatFix\x64\Debug\ClosetCheatFix.exe
